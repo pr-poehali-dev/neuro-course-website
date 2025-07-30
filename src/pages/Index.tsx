@@ -421,25 +421,6 @@ export default function Index() {
                   </p>
                 </div>
               </div>
-
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
-                <div className="text-center">
-                  <div className="text-2xl font-light text-white">153</div>
-                  <div className="text-sm text-gray-400">Ученика</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-light text-white">2 года</div>
-                  <div className="text-sm text-gray-400">Опыта</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-light text-white">50+ млн</div>
-                  <div className="text-sm text-gray-400">Оборот моих учеников</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-light text-white">98%</div>
-                  <div className="text-sm text-gray-400">Результат</div>
-                </div>
-              </div>
           </div>
         </div>
       </section>
