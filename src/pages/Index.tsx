@@ -370,12 +370,7 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Urgency Bar */}
-      <div className="bg-black border border-white text-white py-2 text-center text-sm font-medium">
-        <div className="container mx-auto px-4">
-          ⏰ Скидка 50% действует ещё: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
-        </div>
-      </div>
+
 
       {/* About Me Section */}
       <section 
