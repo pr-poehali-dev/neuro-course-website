@@ -629,9 +629,23 @@ export default function Index() {
       {/* Hero Section */}
       <section className="py-20 px-4 bg-black">
         <div className="container mx-auto max-w-4xl text-center">
-          <Badge className="mb-6 bg-purple-600 text-white border-0">
-            Полный курс по ИИ • 11 модулей • Личное ведение
-          </Badge>
+          <div className="space-y-4 mb-6">
+            <Badge className="bg-purple-600 text-white border-0">
+              Доступ к курсу — бессрочно
+            </Badge>
+            <Badge className="bg-purple-600 text-white border-0">
+              Чат с другими учениками
+            </Badge>
+            <Badge className="bg-purple-600 text-white border-0">
+              Личное ведение эксперта на 2 месяца
+            </Badge>
+            <Badge className="bg-purple-600 text-white border-0">
+              Растущая база промтов и референсов
+            </Badge>
+            <Badge className="bg-purple-600 text-white border-0">
+              11 модулей
+            </Badge>
+          </div>
           
           <h1 className="text-4xl md:text-6xl font-light text-white mb-6 leading-tight">
             Зарабатывайте с ИИ<br/>
@@ -696,7 +710,7 @@ export default function Index() {
             Полная программа курса
           </h2>
           <p className="text-lg text-center text-gray-300 mb-16">
-            11 модулей + персональное ведение + бонусы
+            Структура курса
           </p>
           
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
