@@ -577,7 +577,12 @@ export default function Index() {
             >
               Начать обучение за 4,990₽
             </Button>
-            <Button size="lg" variant="outline" className="border-purple-600 text-purple-400 hover:bg-purple-900 px-8 py-4">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-purple-600 text-purple-400 hover:bg-purple-900 px-8 py-4"
+              onClick={() => document.getElementById('modules')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Посмотреть программу
             </Button>
           </div>
@@ -620,7 +625,7 @@ export default function Index() {
       </section>
 
       {/* Course Modules */}
-      <section className="py-20 px-4 bg-black">
+      <section id="modules" className="py-20 px-4 bg-black">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
             Полная программа курса
