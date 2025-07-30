@@ -212,9 +212,9 @@ export default function Index() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black text-white">
       {/* Urgency Bar */}
-      <div className="bg-black text-white py-2 text-center text-sm">
+      <div className="bg-white text-black py-2 text-center text-sm">
         <div className="container mx-auto px-4">
           ⏰ Скидка действует ещё: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
         </div>
@@ -223,25 +223,25 @@ export default function Index() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <Badge className="mb-6 bg-gray-100 text-gray-800 border-0">
+          <Badge className="mb-6 bg-gray-800 text-white border-gray-700">
             Курс по нейросетям • 2,847 выпускников
           </Badge>
           
-          <h1 className="text-4xl md:text-6xl font-light text-gray-900 mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-light text-white mb-6 leading-tight">
             Зарабатывайте с ИИ<br/>
             <span className="font-normal">в 5 раз больше</span>
           </h1>
           
-          <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
             Освойте ChatGPT, Krea, Gamma и другие ИИ-инструменты.<br/>
             Увеличьте доход на 200% за месяц или вернём деньги.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button size="lg" className="bg-black hover:bg-gray-800 text-white px-8 py-4">
+            <Button size="lg" className="bg-white hover:bg-gray-100 text-black px-8 py-4">
               Начать обучение за 4,990₽
             </Button>
-            <Button size="lg" variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4">
+            <Button size="lg" variant="outline" className="border-gray-600 text-white hover:bg-gray-900 px-8 py-4">
               Посмотреть программу
             </Button>
           </div>
@@ -250,8 +250,8 @@ export default function Index() {
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <Icon name={stat.icon as any} className="w-6 h-6 text-gray-400 mx-auto mb-2" />
-                <div className="text-2xl font-light text-gray-900">{stat.value}</div>
-                <div className="text-sm text-gray-500">{stat.label}</div>
+                <div className="text-2xl font-light text-white">{stat.value}</div>
+                <div className="text-sm text-gray-400">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -271,12 +271,12 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-12">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
-                  <Icon name={benefit.icon as any} className="w-8 h-8 text-gray-600" />
+                <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Icon name={benefit.icon as any} className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600 mb-2">{benefit.description}</p>
-                <p className="text-sm text-gray-500">{benefit.detail}</p>
+                <h3 className="text-xl font-medium text-white mb-3">{benefit.title}</h3>
+                <p className="text-gray-300 mb-2">{benefit.description}</p>
+                <p className="text-sm text-gray-400">{benefit.detail}</p>
               </div>
             ))}
           </div>
@@ -286,35 +286,35 @@ export default function Index() {
       {/* Course Modules */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
             Программа курса
           </h2>
-          <p className="text-lg text-center text-gray-600 mb-16">
+          <p className="text-lg text-center text-gray-300 mb-16">
             11 модулей практических навыков
           </p>
           
           <div className="grid lg:grid-cols-5 gap-6">
             {modules.map((module, index) => (
-              <Card key={index} className="border border-gray-200 hover:shadow-md transition-shadow duration-300">
+              <Card key={index} className="border border-gray-800 bg-gray-900 hover:bg-gray-800 transition-colors duration-300">
                 <CardHeader className="pb-4">
-                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
-                    <Icon name={module.icon as any} className="w-6 h-6 text-gray-600" />
+                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                    <Icon name={module.icon as any} className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-lg font-medium text-gray-900">{module.title}</CardTitle>
-                  <CardDescription className="text-sm text-gray-500">
+                  <CardTitle className="text-lg font-medium text-white">{module.title}</CardTitle>
+                  <CardDescription className="text-sm text-gray-400">
                     {module.lessons.length} уроков
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-1">
                     {module.lessons.slice(0, 3).map((lesson, lessonIndex) => (
-                      <li key={lessonIndex} className="flex items-start gap-2 text-gray-600 text-sm">
-                        <div className="w-1 h-1 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <li key={lessonIndex} className="flex items-start gap-2 text-gray-300 text-sm">
+                        <div className="w-1 h-1 bg-gray-500 rounded-full mt-2 flex-shrink-0"></div>
                         {lesson}
                       </li>
                     ))}
                     {module.lessons.length > 3 && (
-                      <li className="text-gray-400 text-sm">
+                      <li className="text-gray-500 text-sm">
                         +{module.lessons.length - 3} уроков
                       </li>
                     )}
@@ -327,28 +327,28 @@ export default function Index() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-gray-900">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-900 mb-16">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-16">
             Результаты учеников
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="border border-gray-200">
+              <Card key={index} className="border border-gray-800 bg-gray-800">
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-lg">
+                    <div className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-lg">
                       {testimonial.avatar}
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 text-base font-medium">{testimonial.name}</CardTitle>
-                      <CardDescription className="text-gray-500 text-sm">{testimonial.role}</CardDescription>
+                      <CardTitle className="text-white text-base font-medium">{testimonial.name}</CardTitle>
+                      <CardDescription className="text-gray-400 text-sm">{testimonial.role}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 mb-4 text-sm leading-relaxed">"{testimonial.content}"</p>
+                  <p className="text-gray-200 mb-4 text-sm leading-relaxed">"{testimonial.content}"</p>
                   <Badge className="bg-gray-100 text-gray-700 border-0 text-xs">
                     {testimonial.result}
                   </Badge>
@@ -362,29 +362,29 @@ export default function Index() {
       {/* Pricing */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
             Выберите тариф
           </h2>
-          <p className="text-lg text-center text-gray-600 mb-16">
+          <p className="text-lg text-center text-gray-300 mb-16">
             Каждый тариф окупится в первую неделю
           </p>
           
           <div className="grid lg:grid-cols-3 gap-8">
             {pricing.map((plan, index) => (
-              <Card key={index} className={`border ${plan.popular ? 'border-gray-900 shadow-lg' : 'border-gray-200'} relative`}>
+              <Card key={index} className={`border ${plan.popular ? 'border-white bg-gray-900' : 'border-gray-800 bg-gray-900'} relative`}>
                 {plan.popular && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <Badge className="bg-black text-white border-0 px-3 py-1">
+                    <Badge className="bg-white text-black border-0 px-3 py-1">
                       Популярный выбор
                     </Badge>
                   </div>
                 )}
                 <CardHeader className="text-center pb-4">
-                  <CardTitle className="text-xl font-medium text-gray-900">{plan.name}</CardTitle>
+                  <CardTitle className="text-xl font-medium text-white">{plan.name}</CardTitle>
                   <div className="mt-4">
                     <span className="text-sm text-gray-400 line-through">{plan.originalPrice}₽</span>
                   </div>
-                  <div className="text-3xl font-light text-gray-900 mb-2">
+                  <div className="text-3xl font-light text-white mb-2">
                     {plan.price}₽
                   </div>
                   <Badge className="bg-gray-100 text-gray-700 border-0 text-xs">
@@ -394,7 +394,7 @@ export default function Index() {
                 <CardContent>
                   <ul className="space-y-3 mb-8">
                     {plan.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start gap-3 text-gray-700">
+                      <li key={featureIndex} className="flex items-start gap-3 text-gray-200">
                         <Icon name="Check" className="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" />
                         <span className="text-sm">{feature}</span>
                       </li>
@@ -402,7 +402,7 @@ export default function Index() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className={`w-full ${plan.popular ? 'bg-black hover:bg-gray-800' : 'bg-gray-900 hover:bg-gray-800'} text-white`}>
+                  <Button className={`w-full ${plan.popular ? 'bg-white hover:bg-gray-100 text-black' : 'bg-white hover:bg-gray-100 text-black'}`}>
                     Выбрать тариф
                   </Button>
                 </CardFooter>
@@ -419,19 +419,19 @@ export default function Index() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-gray-900">
         <div className="container mx-auto max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-900 mb-16">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-16">
             Частые вопросы
           </h2>
           
           <Accordion type="single" collapsible className="space-y-4">
             {faq.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border border-gray-200 rounded-lg bg-white px-6">
-                <AccordionTrigger className="text-gray-900 hover:text-gray-700 py-6 text-left font-medium">
+              <AccordionItem key={index} value={`item-${index}`} className="border border-gray-800 rounded-lg bg-gray-800 px-6">
+                <AccordionTrigger className="text-white hover:text-gray-200 py-6 text-left font-medium">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-600 pb-6 leading-relaxed">
+                <AccordionContent className="text-gray-300 pb-6 leading-relaxed">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -443,27 +443,27 @@ export default function Index() {
       {/* Final CTA */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
             Начните зарабатывать<br/>больше уже завтра
           </h2>
-          <p className="text-lg text-gray-600 mb-10">
+          <p className="text-lg text-gray-300 mb-10">
             Присоединяйтесь к 2,847 ученикам, которые изменили свою жизнь с помощью ИИ
           </p>
           
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-10 inline-block">
-            <div className="text-lg font-medium text-gray-900 mb-1">
+          <div className="bg-gray-900 border border-gray-800 rounded-lg p-6 mb-10 inline-block">
+            <div className="text-lg font-medium text-white mb-1">
               Цена вырастет через: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
             </div>
-            <div className="text-gray-600 text-sm">
+            <div className="text-gray-400 text-sm">
               Осталось мест: 12 из 100
             </div>
           </div>
 
-          <Button size="lg" className="bg-black hover:bg-gray-800 text-white px-12 py-4 text-lg mb-8">
+          <Button size="lg" className="bg-white hover:bg-gray-100 text-black px-12 py-4 text-lg mb-8">
             Получить доступ за 4,990₽
           </Button>
           
-          <div className="flex justify-center gap-8 text-sm text-gray-500">
+          <div className="flex justify-center gap-8 text-sm text-gray-400">
             <div className="flex items-center gap-2">
               <Icon name="Shield" className="w-4 h-4" />
               <span>Гарантия 30 дней</span>
@@ -481,26 +481,26 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 py-12 px-4">
+      <footer className="border-t border-gray-800 py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-6 md:mb-0">
-              <h3 className="text-gray-900 font-medium text-lg mb-2">Курс "ИИ для заработка"</h3>
-              <p className="text-gray-500">Зарабатывайте больше, работайте меньше</p>
+              <h3 className="text-white font-medium text-lg mb-2">Курс "ИИ для заработка"</h3>
+              <p className="text-gray-400">Зарабатывайте больше, работайте меньше</p>
             </div>
             <div className="flex gap-6">
-              <Button variant="ghost" className="text-gray-500 hover:text-gray-700">
+              <Button variant="ghost" className="text-gray-400 hover:text-white">
                 <Icon name="Mail" className="w-4 h-4 mr-2" />
                 Поддержка
               </Button>
-              <Button variant="ghost" className="text-gray-500 hover:text-gray-700">
+              <Button variant="ghost" className="text-gray-400 hover:text-white">
                 <Icon name="MessageCircle" className="w-4 h-4 mr-2" />
                 Telegram
               </Button>
             </div>
           </div>
-          <div className="border-t border-gray-200 mt-8 pt-8 text-center">
-            <p className="text-gray-400 text-sm">
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+            <p className="text-gray-500 text-sm">
               © 2024 Курс "ИИ для заработка". Все права защищены.
             </p>
           </div>
