@@ -392,9 +392,8 @@ export default function Index() {
           <div className="text-center">
               <Badge className="mb-6 bg-black border border-white text-white border-0">ИИ-эксперт • 2 года в сфере Искусственного интеллекта</Badge>
               
-              <h1 className="text-3xl md:text-4xl font-light text-white mb-6">
-                Привет! Меня зовут <span className="text-white font-medium">Ольга</span>
-              </h1>
+              <h1 className="text-3xl md:text-4xl font-light text-white mb-6">OLGA 
+VSTORIES AI</h1>
               
               <div className="space-y-6 text-gray-300 leading-relaxed max-w-3xl mx-auto">
                 <div className="text-left">
