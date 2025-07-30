@@ -382,8 +382,12 @@ export default function Index() {
         <div className="container mx-auto max-w-4xl">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/3">
-              <div className="w-64 h-64 mx-auto bg-gradient-to-br from-purple-600 to-purple-800 rounded-full flex items-center justify-center text-6xl">
-                👩‍💼
+              <div className="w-64 h-64 mx-auto bg-gradient-to-br from-purple-600 to-purple-800 rounded-full flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/a2e80da6-27f5-4699-b674-5624e6c8def6.PNG" 
+                  alt="VStories AI" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div className="lg:w-2/3 text-center lg:text-left">
