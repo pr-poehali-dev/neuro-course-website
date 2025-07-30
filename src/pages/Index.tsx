@@ -389,17 +389,7 @@ export default function Index() {
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="container mx-auto max-w-4xl relative z-10">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-1/3">
-              <div className="w-64 h-64 mx-auto bg-gradient-to-br from-purple-600 to-purple-800 rounded-full flex items-center justify-center overflow-hidden">
-                <img 
-                  src="https://cdn.poehali.dev/files/a2e80da6-27f5-4699-b674-5624e6c8def6.PNG" 
-                  alt="VStories AI" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="lg:w-2/3 text-center lg:text-left">
+          <div className="text-center">
               <Badge className="mb-6 bg-purple-600 text-white border-0">ИИ-эксперт • 2 года в сфере Искусственного интеллекта</Badge>
               
               <h1 className="text-3xl md:text-4xl font-light text-white mb-6">
