@@ -701,7 +701,7 @@ export default function Index() {
           
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
             {modules.map((module, index) => (
-              <Card key={index} className="border border-purple-600/30 bg-gradient-to-br from-purple-900/40 to-black hover:from-purple-900/60 hover:to-purple-900/20 transition-all duration-300">
+              <Card key={index} className="border border-purple-600/30 bg-gray-900 hover:bg-gray-800 transition-all duration-300">
                 <CardHeader className="pb-4">
                   <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
                     <Icon name={module.icon as any} className="w-6 h-6 text-white" />
