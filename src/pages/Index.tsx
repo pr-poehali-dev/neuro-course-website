@@ -27,22 +27,22 @@ export default function Index() {
 
   const modules = [
     {
-      title: "ChatGPT",
+      title: "ChatGPT Pro",
       icon: "MessageCircle",
       lessons: [
         "Введение в работу с ChatGPT",
-        "Работа с телефоном", 
-        "Создание постов за минуты",
         "Создание качественных промтов",
         "Продвинутое создание промтов",
         "Создание логотипов и обложек",
         "Создание фото с одеждой и предметами",
         "Создание личных фото с помощью ChatGPT",
-        "Генерация в различных стилях"
+        "Генерация в различных стилях",
+        "Работа с плагинами ChatGPT",
+        "Автоматизация с помощью API"
       ]
     },
     {
-      title: "Krea",
+      title: "Krea AI",
       icon: "Palette",
       lessons: [
         "Введение в Krea",
@@ -53,11 +53,12 @@ export default function Index() {
         "Создание реалистичных видео с человеком",
         "Создание контента с одеждой",
         "Создание фото по стилю",
-        "Как исправить недочёты"
+        "Как исправить недочёты",
+        "Продвинутые техники работы"
       ]
     },
     {
-      title: "ИИ-бот",
+      title: "ИИ-бот Pro",
       icon: "Bot",
       lessons: [
         "Введение в работу с ИИ-ботом",
@@ -66,7 +67,8 @@ export default function Index() {
         "Создание видео", 
         "Генерация и клонирование голоса",
         "VEO 3 - новейшая технология",
-        "Создание видео с товарами"
+        "Создание видео с товарами",
+        "Продвинутая работа с ботами"
       ]
     },
     {
@@ -76,17 +78,94 @@ export default function Index() {
         "Создание презентаций с ИИ",
         "Создание документов",
         "Создание каруселей",
-        "Генерация изображений в презентациях"
+        "Генерация изображений в презентациях",
+        "Продвинутые шаблоны",
+        "Интеграция с другими сервисами"
       ]
     },
     {
-      title: "Flyvi",
+      title: "Flyvi Pro",
       icon: "Sparkles",
       lessons: [
         "Создание дизайнов",
         "Редактирование изображений",
         "Обзор готовых дизайнов",
-        "Экспорт и использование"
+        "Экспорт и использование",
+        "Продвинутые техники",
+        "Коммерческое использование"
+      ]
+    },
+    {
+      title: "TikTok ИИ",
+      icon: "Video",
+      lessons: [
+        "Создание вирусных видео с ИИ",
+        "Генерация скриптов для TikTok",
+        "Автоматизация постинга",
+        "Монетизация TikTok",
+        "Создание контента для трендов",
+        "Аналитика и оптимизация"
+      ]
+    },
+    {
+      title: "Telegram боты",
+      icon: "MessageSquare",
+      lessons: [
+        "Создание Telegram-ботов с ИИ",
+        "Настройка воронок продаж",
+        "Автоматизация клиентского сервиса",
+        "Интеграция с CRM",
+        "Монетизация через ботов",
+        "Продвинутые сценарии"
+      ]
+    },
+    {
+      title: "Клонирование себя",
+      icon: "Users",
+      lessons: [
+        "Создание ИИ-клона личности",
+        "Клонирование голоса",
+        "Создание аватара",
+        "Обучение клона вашему стилю",
+        "Применение в бизнесе",
+        "Этические аспекты"
+      ]
+    },
+    {
+      title: "Midjourney Pro",
+      icon: "Image",
+      lessons: [
+        "Продвинутые промты Midjourney",
+        "Создание брендинга",
+        "Коммерческое использование",
+        "Стилизация и референсы",
+        "Работа с параметрами",
+        "Продажа изображений"
+      ]
+    },
+    {
+      title: "Stable Diffusion",
+      icon: "Zap",
+      lessons: [
+        "Установка и настройка",
+        "Создание уникальных моделей",
+        "Тренировка на своих данных",
+        "Продвинутые техники",
+        "Коммерческое применение"
+      ]
+    },
+    {
+      title: "Монетизация ИИ",
+      icon: "DollarSign",
+      lessons: [
+        "7 способов заработка на ИИ",
+        "Создание ИИ-сервисов",
+        "Фриланс с ИИ",
+        "Запуск онлайн-школы",
+        "Продажа ИИ-контента",
+        "Масштабирование бизнеса",
+        "Юридические аспекты",
+        "Налогообложение ИИ-деятельности"
       ]
     }
   ];
@@ -109,6 +188,24 @@ export default function Index() {
       title: "Рост доходов",
       description: "Увеличьте прибыль на 200%",
       detail: "Средний результат наших учеников"
+    },
+    {
+      icon: "Users",
+      title: "Клонирование себя",
+      description: "Создайте цифровую копию",
+      detail: "Работайте 24/7 через ИИ-клона"
+    },
+    {
+      icon: "Bot",
+      title: "Автоматизация",
+      description: "Автоматизируйте все процессы",
+      detail: "Telegram-боты и воронки продаж"
+    },
+    {
+      icon: "Video",
+      title: "Вирусный контент",
+      description: "Создавайте хиты в TikTok",
+      detail: "Алгоритмы для миллионных просмотров"
     }
   ];
 
@@ -123,23 +220,44 @@ export default function Index() {
     {
       name: "Анна Петрова",
       role: "SMM-специалист",
-      content: "За месяц увеличила количество клиентов в 3 раза. Работаю теперь 6 часов вместо 12.",
-      result: "Доход: 30к → 180к",
+      content: "За месяц увеличила количество клиентов в 3 раза. Мой ИИ-клон работает круглосуточно и привлекает клиентов даже ночью.",
+      result: "Доход: 30к → 280к",
       avatar: "👩‍💼"
     },
     {
       name: "Михаил Козлов", 
       role: "Фрилансер-дизайнер",
-      content: "Перестал тратить ночи на рендеры. Беру в 2 раза больше заказов благодаря ИИ.",
-      result: "Доход: 80к → 380к",
+      content: "Создал ИИ-сервис для генерации логотипов. Теперь зарабатываю пассивно, пока сплю. TikTok-канал приносит 150к в месяц.",
+      result: "Доход: 80к → 580к",
       avatar: "👨‍🎨"
     },
     {
       name: "Елена Смирнова",
-      role: "Владелица бизнеса",
-      content: "Уволила команду дизайнеров. Делаю всё сама быстрее и качественнее.",
-      result: "Экономия: 400к/мес",
+      role: "Владелица онлайн-школы",
+      content: "Telegram-бот автоматически продает мои курсы. Личное ведение помогло запустить онлайн-школу с нуля. ИИ ведет 90% клиентов.",
+      result: "Доход: 120к → 890к",
       avatar: "👩‍💻"
+    },
+    {
+      name: "Дмитрий Волков",
+      role: "TikTok-блогер",
+      content: "Мои видео с ИИ набирают миллионы просмотров. Клонированный голос позволяет создавать контент на 5 языках одновременно.",
+      result: "Доход: 45к → 420к",
+      avatar: "🎬"
+    },
+    {
+      name: "Мария Кузнецова",
+      role: "Владелица агентства",
+      content: "Автоматизировала всё агентство через ИИ. Теперь у меня 15 ИИ-сотрудников, которые работают без перерывов и отпусков.",
+      result: "Прибыль: +670%",
+      avatar: "💼"
+    },
+    {
+      name: "Алексей Морозов",
+      role: "ИИ-предприниматель",
+      content: "Запустил 7 ИИ-сервисов за 3 месяца. Каждый приносит пассивный доход. Личное ведение - это бесценно!",
+      result: "Доход: 0 → 1.2млн",
+      avatar: "🚀"
     }
   ];
 
@@ -168,7 +286,8 @@ export default function Index() {
         "Растущая база промтов и референсов",
         "Все ИИ-инструменты (ChatGPT, Krea, Gamma, Flyvi)",
         "Полная программа монетизации",
-        "Создание ИИ-клона себя"
+        "Создание ИИ-клона себя",
+        "Базовые Telegram-боты"
       ],
       popular: true,
       modules: "11 модулей"
@@ -178,14 +297,18 @@ export default function Index() {
       originalPrice: "49,990", 
       price: "24,990",
       features: [
-        "Бессрочный доступ ко всем 11 модулям",
-        "Личное ведение эксперта на 2 месяца",
-        "Приоритетный чат с учениками", 
-        "Растущая база промтов (пожизненно)",
-        "Воронки продаж с Telegram-ботами",
-        "Монетизация TikTok с нуля",
-        "Индивидуальная стратегия заработка",
-        "ИИ-клон + клонирование голоса"
+        "🔥 Бессрочный доступ ко всем 11 модулям",
+        "👨‍🏫 Личное ведение эксперта на 2 месяца",
+        "💬 Приоритетный чат с учениками", 
+        "📚 Растущая база промтов (пожизненно)",
+        "🤖 Продвинутые Telegram-боты с воронками",
+        "📱 Полная монетизация TikTok с нуля",
+        "💰 Индивидуальная стратегия заработка",
+        "👤 ИИ-клон + профессиональное клонирование голоса",
+        "🎨 Midjourney Pro + Stable Diffusion",
+        "📊 Готовые шаблоны для всех ниш",
+        "⚡ Приоритетная техподдержка 24/7",
+        "🎯 Персональная стратегия развития"
       ],
       popular: false,
       modules: "11 модулей + менторство"
@@ -195,53 +318,151 @@ export default function Index() {
   const faq = [
     {
       question: "Сколько времени нужно уделять обучению?",
-      answer: "Достаточно 30-60 минут в день. Многие ученики уже через неделю получают первые результаты и окупают курс."
+      answer: "Достаточно 30-60 минут в день. Многие ученики уже через неделю получают первые результаты и окупают курс. В эксклюзивном тарифе личный ментор поможет оптимизировать ваше время."
     },
     {
       question: "Подойдёт ли курс полному новичку?",
-      answer: "Да! 70% наших учеников - новички без опыта. Курс построен от простого к сложному с практическими примерами."
+      answer: "Да! 70% наших учеников - новички без опыта. Курс построен от простого к сложному с практическими примерами. Эксклюзивный тариф включает персональное ведение."
     },
     {
       question: "Что если не получится заработать?",
-      answer: "У нас 98% успешных кейсов. Если через месяц вы не увеличите доход - вернём все деньги без вопросов."
+      answer: "У нас 98% успешных кейсов. Если через месяц вы не увеличите доход - вернём все деньги без вопросов. В эксклюзивном тарифе гарантируем результат или работаем до победного."
     },
     {
       question: "Нужно ли покупать дополнительные программы?",
-      answer: "Нет! Все ИИ-инструменты имеют бесплатные тарифы. Дополнительно ничего покупать не нужно."
+      answer: "Нет! Все ИИ-инструменты имеют бесплатные тарифы. Дополнительно ничего покупать не нужно. Мы даже дарим готовые шаблоны и промты."
+    },
+    {
+      question: "Чем отличается эксклюзивный тариф?",
+      answer: "Эксклюзивный тариф включает бессрочный доступ, личное ведение на 2 месяца, продвинутые модули по TikTok и Telegram-ботам, профессиональное клонирование голоса и персональную стратегию заработка."
+    },
+    {
+      question: "Можно ли получить возврат после покупки?",
+      answer: "Да, у нас гарантия возврата 30 дней без вопросов. Если курс не подошёл - вернём деньги полностью."
+    }
+  ];
+
+  const bonuses = [
+    {
+      title: "🎁 База из 1000+ готовых промтов",
+      description: "Для всех популярных ниш",
+      value: "19,990₽"
+    },
+    {
+      title: "🤖 Готовые Telegram-боты",
+      description: "5 настроенных ботов для бизнеса",
+      value: "29,990₽"
+    },
+    {
+      title: "📱 TikTok-шаблоны",
+      description: "50 вирусных шаблонов для видео",
+      value: "15,990₽"
+    },
+    {
+      title: "🎵 Клонирование голоса Pro",
+      description: "Профессиональная настройка",
+      value: "24,990₽"
+    },
+    {
+      title: "💼 Готовые сценарии продаж",
+      description: "Конвертирующие воронки",
+      value: "12,990₽"
+    },
+    {
+      title: "🎯 Персональная стратегия",
+      description: "Индивидуальный план заработка",
+      value: "39,990₽"
     }
   ];
 
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Urgency Bar */}
-      <div className="bg-white text-black py-2 text-center text-sm">
+      <div className="bg-purple-600 text-white py-2 text-center text-sm font-medium">
         <div className="container mx-auto px-4">
-          ⏰ Скидка действует ещё: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
+          ⏰ Скидка 50% действует ещё: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
         </div>
       </div>
+
+      {/* About Me Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-purple-900 via-black to-purple-900">
+        <div className="container mx-auto max-w-4xl">
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="lg:w-1/3">
+              <div className="w-64 h-64 mx-auto bg-gradient-to-br from-purple-600 to-purple-800 rounded-full flex items-center justify-center text-6xl">
+                👩‍💼
+              </div>
+            </div>
+            <div className="lg:w-2/3 text-center lg:text-left">
+              <Badge className="mb-6 bg-purple-600 text-white border-0">
+                ИИ-эксперт • 4 года опыта
+              </Badge>
+              
+              <h1 className="text-3xl md:text-4xl font-light text-white mb-6">
+                Привет! Меня зовут <span className="text-purple-400 font-medium">Вероника</span>
+              </h1>
+              
+              <div className="space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  За 4 года работы с ИИ я помогла <strong className="text-white">2,847 ученикам</strong> увеличить доходы 
+                  в среднем на 127% и запустить прибыльные ИИ-проекты.
+                </p>
+                <p>
+                  Мой опыт: создание ИИ-сервисов с оборотом более 50 млн рублей, 
+                  запуск 15+ успешных онлайн-школ, разработка автоматизированных 
+                  систем продаж через Telegram-ботов.
+                </p>
+                <p>
+                  <strong className="text-purple-400">Моя миссия</strong> — показать, что каждый может зарабатывать 
+                  с помощью ИИ, даже без технического образования.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+                <div className="text-center">
+                  <div className="text-2xl font-light text-purple-400">2,847</div>
+                  <div className="text-sm text-gray-400">Учеников</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-light text-purple-400">4 года</div>
+                  <div className="text-sm text-gray-400">Опыта</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-light text-purple-400">50+ млн</div>
+                  <div className="text-sm text-gray-400">Оборот</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-light text-purple-400">98%</div>
+                  <div className="text-sm text-gray-400">Результат</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <Badge className="mb-6 bg-gray-800 text-white border-gray-700">
-            Курс по нейросетям • 2,847 выпускников
+          <Badge className="mb-6 bg-purple-600 text-white border-0">
+            Полный курс по ИИ • 11 модулей • Личное ведение
           </Badge>
           
           <h1 className="text-4xl md:text-6xl font-light text-white mb-6 leading-tight">
             Зарабатывайте с ИИ<br/>
-            <span className="font-normal">в 5 раз больше</span>
+            <span className="font-normal text-purple-400">в 5 раз больше</span>
           </h1>
           
           <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
-            Освойте ChatGPT, Krea, Gamma и другие ИИ-инструменты.<br/>
-            Увеличьте доход на 200% за месяц или вернём деньги.
+            Освойте все ИИ-инструменты, создайте клона себя, запустите Telegram-боты<br/>
+            и TikTok-каналы. Увеличьте доход на 200% за месяц или вернём деньги.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button size="lg" className="bg-white hover:bg-gray-100 text-black px-8 py-4">
+            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4">
               Начать обучение за 4,990₽
             </Button>
-            <Button size="lg" variant="outline" className="border-gray-600 text-white hover:bg-gray-900 px-8 py-4">
+            <Button size="lg" variant="outline" className="border-purple-600 text-purple-400 hover:bg-purple-900 px-8 py-4">
               Посмотреть программу
             </Button>
           </div>
@@ -249,7 +470,7 @@ export default function Index() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <Icon name={stat.icon as any} className="w-6 h-6 text-gray-400 mx-auto mb-2" />
+                <Icon name={stat.icon as any} className="w-6 h-6 text-purple-400 mx-auto mb-2" />
                 <div className="text-2xl font-light text-white">{stat.value}</div>
                 <div className="text-sm text-gray-400">{stat.label}</div>
               </div>
@@ -259,24 +480,24 @@ export default function Index() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-4 bg-gradient-to-r from-purple-900/20 to-purple-800/20">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-light text-center text-gray-900 mb-4">
-            Что даст вам курс
+          <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
+            Что даст вам полный курс
           </h2>
-          <p className="text-lg text-center text-gray-600 mb-16">
-            Конкретные результаты, которые вы получите
+          <p className="text-lg text-center text-gray-300 mb-16">
+            Все инструменты для создания ИИ-империи
           </p>
           
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name={benefit.icon as any} className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-medium text-white mb-3">{benefit.title}</h3>
                 <p className="text-gray-300 mb-2">{benefit.description}</p>
-                <p className="text-sm text-gray-400">{benefit.detail}</p>
+                <p className="text-sm text-purple-400">{benefit.detail}</p>
               </div>
             ))}
           </div>
@@ -287,35 +508,35 @@ export default function Index() {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
-            Программа курса
+            Полная программа курса
           </h2>
           <p className="text-lg text-center text-gray-300 mb-16">
-            11 модулей практических навыков
+            11 модулей + персональное ведение + бонусы
           </p>
           
-          <div className="grid lg:grid-cols-5 gap-6">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
             {modules.map((module, index) => (
-              <Card key={index} className="border border-gray-800 bg-gray-900 hover:bg-gray-800 transition-colors duration-300">
+              <Card key={index} className="border border-purple-600/30 bg-gradient-to-br from-purple-900/40 to-black hover:from-purple-800/40 transition-all duration-300">
                 <CardHeader className="pb-4">
-                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
                     <Icon name={module.icon as any} className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle className="text-lg font-medium text-white">{module.title}</CardTitle>
-                  <CardDescription className="text-sm text-gray-400">
+                  <CardDescription className="text-sm text-purple-300">
                     {module.lessons.length} уроков
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-1">
-                    {module.lessons.slice(0, 3).map((lesson, lessonIndex) => (
-                      <li key={lessonIndex} className="flex items-start gap-2 text-gray-300 text-sm">
-                        <div className="w-1 h-1 bg-gray-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <ul className="space-y-2">
+                    {module.lessons.slice(0, 4).map((lesson, lessonIndex) => (
+                      <li key={lessonIndex} className="flex items-start gap-3 text-gray-300 text-sm">
+                        <Icon name="Check" className="w-4 h-4 text-purple-400 mt-0.5 flex-shrink-0" />
                         {lesson}
                       </li>
                     ))}
-                    {module.lessons.length > 3 && (
-                      <li className="text-gray-500 text-sm">
-                        +{module.lessons.length - 3} уроков
+                    {module.lessons.length > 4 && (
+                      <li className="text-purple-400 text-sm font-medium">
+                        +{module.lessons.length - 4} дополнительных уроков
                       </li>
                     )}
                   </ul>
@@ -326,30 +547,72 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Bonuses Section */}
+      <section className="py-20 px-4 bg-gradient-to-r from-purple-900/20 to-purple-800/20">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
+            Эксклюзивные бонусы
+          </h2>
+          <p className="text-lg text-center text-gray-300 mb-16">
+            На сумму более 143,000₽ в подарок
+          </p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {bonuses.map((bonus, index) => (
+              <Card key={index} className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+                <CardHeader>
+                  <CardTitle className="text-white text-base">{bonus.title}</CardTitle>
+                  <CardDescription className="text-gray-300">{bonus.description}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <Badge className="bg-purple-600 text-white border-0">
+                    Стоимость: {bonus.value}
+                  </Badge>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <div className="inline-block bg-gradient-to-r from-purple-600 to-purple-800 rounded-lg p-6">
+              <div className="text-2xl font-light text-white mb-2">
+                Общая стоимость бонусов
+              </div>
+              <div className="text-4xl font-bold text-white">
+                143,940₽
+              </div>
+              <div className="text-purple-200 mt-2">
+                Получите бесплатно с эксклюзивным тарифом
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-16">
             Результаты учеников
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="border border-gray-800 bg-gray-800">
+              <Card key={index} className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-lg">
+                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-lg">
                       {testimonial.avatar}
                     </div>
                     <div>
                       <CardTitle className="text-white text-base font-medium">{testimonial.name}</CardTitle>
-                      <CardDescription className="text-gray-400 text-sm">{testimonial.role}</CardDescription>
+                      <CardDescription className="text-purple-300 text-sm">{testimonial.role}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-200 mb-4 text-sm leading-relaxed">"{testimonial.content}"</p>
-                  <Badge className="bg-gray-100 text-gray-700 border-0 text-xs">
+                  <Badge className="bg-purple-600 text-white border-0 text-xs">
                     {testimonial.result}
                   </Badge>
                 </CardContent>
@@ -360,7 +623,7 @@ export default function Index() {
       </section>
 
       {/* Pricing */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-gradient-to-r from-purple-900/20 to-purple-800/20">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
             Выберите тариф
@@ -371,10 +634,10 @@ export default function Index() {
           
           <div className="grid lg:grid-cols-3 gap-8">
             {pricing.map((plan, index) => (
-              <Card key={index} className={`border ${plan.popular ? 'border-white bg-gray-900' : 'border-gray-800 bg-gray-900'} relative`}>
+              <Card key={index} className={`border ${plan.popular ? 'border-purple-400 bg-gradient-to-br from-purple-900/40 to-purple-800/20' : 'border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black'} relative`}>
                 {plan.popular && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <Badge className="bg-white text-black border-0 px-3 py-1">
+                    <Badge className="bg-purple-600 text-white border-0 px-3 py-1">
                       Популярный выбор
                     </Badge>
                   </div>
@@ -387,7 +650,7 @@ export default function Index() {
                   <div className="text-3xl font-light text-white mb-2">
                     {plan.price}₽
                   </div>
-                  <Badge className="bg-gray-100 text-gray-700 border-0 text-xs">
+                  <Badge className="bg-purple-600 text-white border-0 text-xs">
                     {plan.modules}
                   </Badge>
                 </CardHeader>
@@ -395,14 +658,14 @@ export default function Index() {
                   <ul className="space-y-3 mb-8">
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3 text-gray-200">
-                        <Icon name="Check" className="w-4 h-4 text-gray-400 mt-0.5 flex-shrink-0" />
+                        <Icon name="Check" className="w-4 h-4 text-purple-400 mt-0.5 flex-shrink-0" />
                         <span className="text-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className={`w-full ${plan.popular ? 'bg-white hover:bg-gray-100 text-black' : 'bg-white hover:bg-gray-100 text-black'}`}>
+                  <Button className={`w-full ${plan.popular ? 'bg-purple-600 hover:bg-purple-700' : 'bg-purple-600 hover:bg-purple-700'} text-white`}>
                     Выбрать тариф
                   </Button>
                 </CardFooter>
@@ -411,15 +674,15 @@ export default function Index() {
           </div>
 
           <div className="text-center mt-12">
-            <p className="text-gray-500">
-              Рассрочка до 12 месяцев • Гарантия возврата 30 дней
+            <p className="text-gray-400">
+              Рассрочка до 12 месяцев • Гарантия возврата 30 дней • Поддержка 24/7
             </p>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-16">
             Частые вопросы
@@ -427,8 +690,8 @@ export default function Index() {
           
           <Accordion type="single" collapsible className="space-y-4">
             {faq.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border border-gray-800 rounded-lg bg-gray-800 px-6">
-                <AccordionTrigger className="text-white hover:text-gray-200 py-6 text-left font-medium">
+              <AccordionItem key={index} value={`item-${index}`} className="border border-purple-600/30 rounded-lg bg-gradient-to-r from-purple-900/20 to-black px-6">
+                <AccordionTrigger className="text-white hover:text-purple-300 py-6 text-left font-medium">
                   {item.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-300 pb-6 leading-relaxed">
@@ -441,7 +704,7 @@ export default function Index() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-gradient-to-br from-purple-900 via-black to-purple-900">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
             Начните зарабатывать<br/>больше уже завтра
@@ -450,30 +713,30 @@ export default function Index() {
             Присоединяйтесь к 2,847 ученикам, которые изменили свою жизнь с помощью ИИ
           </p>
           
-          <div className="bg-gray-900 border border-gray-800 rounded-lg p-6 mb-10 inline-block">
+          <div className="bg-gradient-to-r from-purple-900/40 to-purple-800/40 border border-purple-600/30 rounded-lg p-6 mb-10 inline-block">
             <div className="text-lg font-medium text-white mb-1">
               Цена вырастет через: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
             </div>
-            <div className="text-gray-400 text-sm">
+            <div className="text-purple-300 text-sm">
               Осталось мест: 12 из 100
             </div>
           </div>
 
-          <Button size="lg" className="bg-white hover:bg-gray-100 text-black px-12 py-4 text-lg mb-8">
+          <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-12 py-4 text-lg mb-8">
             Получить доступ за 4,990₽
           </Button>
           
           <div className="flex justify-center gap-8 text-sm text-gray-400">
             <div className="flex items-center gap-2">
-              <Icon name="Shield" className="w-4 h-4" />
+              <Icon name="Shield" className="w-4 h-4 text-purple-400" />
               <span>Гарантия 30 дней</span>
             </div>
             <div className="flex items-center gap-2">
-              <Icon name="Zap" className="w-4 h-4" />
+              <Icon name="Zap" className="w-4 h-4 text-purple-400" />
               <span>Мгновенный доступ</span>
             </div>
             <div className="flex items-center gap-2">
-              <Icon name="CreditCard" className="w-4 h-4" />
+              <Icon name="CreditCard" className="w-4 h-4 text-purple-400" />
               <span>Рассрочка</span>
             </div>
           </div>
@@ -481,7 +744,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-800 py-12 px-4">
+      <footer className="border-t border-purple-600/30 py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-6 md:mb-0">
@@ -489,19 +752,19 @@ export default function Index() {
               <p className="text-gray-400">Зарабатывайте больше, работайте меньше</p>
             </div>
             <div className="flex gap-6">
-              <Button variant="ghost" className="text-gray-400 hover:text-white">
+              <Button variant="ghost" className="text-gray-400 hover:text-purple-400">
                 <Icon name="Mail" className="w-4 h-4 mr-2" />
                 Поддержка
               </Button>
-              <Button variant="ghost" className="text-gray-400 hover:text-white">
+              <Button variant="ghost" className="text-gray-400 hover:text-purple-400">
                 <Icon name="MessageCircle" className="w-4 h-4 mr-2" />
                 Telegram
               </Button>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <div className="border-t border-purple-600/30 mt-8 pt-8 text-center">
             <p className="text-gray-500 text-sm">
-              © 2024 Курс "ИИ для заработка". Все права защищены.
+              © 2024 Курс "ИИ для заработка" от Вероники. Все права защищены.
             </p>
           </div>
         </div>
