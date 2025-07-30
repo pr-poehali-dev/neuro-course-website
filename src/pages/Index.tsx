@@ -615,7 +615,7 @@ VSTORIES AI</h1>
             Эксклюзивные бонусы
           </h2>
           <p className="text-lg text-center text-gray-300 mb-16">
-            На сумму более 32,000₽ в подарок
+            Получите в подарок при покупке курса
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -626,27 +626,11 @@ VSTORIES AI</h1>
                   <CardDescription className="text-gray-300">{bonus.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Badge className="bg-black border border-white text-white border-0">
-                    Стоимость: {bonus.value}
-                  </Badge>
                 </CardContent>
               </Card>
             ))}
           </div>
-          
-          <div className="text-center mt-12">
-            <div className="inline-block bg-black border border-white rounded-lg p-6">
-              <div className="text-2xl font-light text-white mb-2">
-                Общая стоимость бонусов
-              </div>
-              <div className="text-4xl font-bold text-white">
-                32,980₽
-              </div>
-              <div className="text-white mt-2">
-                Получите бесплатно с эксклюзивным тарифом
-              </div>
-            </div>
-          </div>
+
         </div>
       </section>
 
