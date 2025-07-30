@@ -396,17 +396,30 @@ export default function Index() {
                 Привет! Меня зовут <span className="text-white font-medium">Ольга</span>
               </h1>
               
-              <div className="space-y-4 text-gray-300 leading-relaxed">
-                <p>Мой опыт: создание ИИ-сервисов с оборотом более 50 млн рублей, запуск 15+ успешных онлайн-школ, разработка автоматизированных систем продаж через Telegram-ботов.</p>
-                <p>
-                  Мой опыт: создание ИИ-сервисов с оборотом более 50 млн рублей, 
-                  запуск 15+ успешных онлайн-школ, разработка автоматизированных 
-                  систем продаж через Telegram-ботов.
-                </p>
-                <p>
-                  <strong className="text-white">Моя миссия</strong> — показать, что каждый может зарабатывать 
-                  с помощью ИИ, даже без технического образования.
-                </p>
+              <div className="space-y-6 text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                <div className="text-left">
+                  <h3 className="text-white font-medium mb-4 text-lg">Мой опыт:</h3>
+                  <ul className="space-y-3 text-gray-300">
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
+                      <span>Создание ИИ-сервисов с оборотом более 50 млн рублей</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
+                      <span>Запуск 15+ успешных онлайн-школ</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Icon name="Check" className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
+                      <span>Разработка автоматизированных систем продаж через Telegram-ботов</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="border-t border-white/20 pt-6">
+                  <p className="text-center">
+                    <strong className="text-white">Моя миссия</strong> — показать, что каждый может зарабатывать 
+                    с помощью ИИ, даже без технического образования.
+                  </p>
+                </div>
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
