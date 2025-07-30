@@ -378,8 +378,17 @@ export default function Index() {
       </div>
 
       {/* About Me Section */}
-      <section className="py-20 px-4 bg-black">
-        <div className="container mx-auto max-w-4xl">
+      <section 
+        className="py-20 px-4 relative bg-black"
+        style={{
+          backgroundImage: `url('https://cdn.poehali.dev/files/e478c754-7852-4f27-aecb-b3755945589d.png')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="container mx-auto max-w-4xl relative z-10">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/3">
               <div className="w-64 h-64 mx-auto bg-gradient-to-br from-purple-600 to-purple-800 rounded-full flex items-center justify-center overflow-hidden">
