@@ -371,7 +371,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Urgency Bar */}
-      <div className="bg-purple-600 text-white py-2 text-center text-sm font-medium">
+      <div className="bg-black border border-white text-white py-2 text-center text-sm font-medium">
         <div className="container mx-auto px-4">
           ⏰ Скидка 50% действует ещё: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
         </div>
@@ -390,10 +390,10 @@ export default function Index() {
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="text-center">
-              <Badge className="mb-6 bg-purple-600 text-white border-0">ИИ-эксперт • 2 года в сфере Искусственного интеллекта</Badge>
+              <Badge className="mb-6 bg-black border border-white text-white border-0">ИИ-эксперт • 2 года в сфере Искусственного интеллекта</Badge>
               
               <h1 className="text-3xl md:text-4xl font-light text-white mb-6">
-                Привет! Меня зовут <span className="text-purple-400 font-medium">Ольга</span>
+                Привет! Меня зовут <span className="text-white font-medium">Ольга</span>
               </h1>
               
               <div className="space-y-4 text-gray-300 leading-relaxed">
@@ -404,26 +404,26 @@ export default function Index() {
                   систем продаж через Telegram-ботов.
                 </p>
                 <p>
-                  <strong className="text-purple-400">Моя миссия</strong> — показать, что каждый может зарабатывать 
+                  <strong className="text-white">Моя миссия</strong> — показать, что каждый может зарабатывать 
                   с помощью ИИ, даже без технического образования.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
                 <div className="text-center">
-                  <div className="text-2xl font-light text-purple-400">153</div>
+                  <div className="text-2xl font-light text-white">153</div>
                   <div className="text-sm text-gray-400">Ученика</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-light text-purple-400">2 года</div>
+                  <div className="text-2xl font-light text-white">2 года</div>
                   <div className="text-sm text-gray-400">Опыта</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-light text-purple-400">50+ млн</div>
+                  <div className="text-2xl font-light text-white">50+ млн</div>
                   <div className="text-sm text-gray-400">Оборот моих учеников</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-light text-purple-400">98%</div>
+                  <div className="text-2xl font-light text-white">98%</div>
                   <div className="text-sm text-gray-400">Результат</div>
                 </div>
               </div>
@@ -442,9 +442,9 @@ export default function Index() {
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+            <Card className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center mb-4">
                   <Icon name="User" className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-white text-xl">Новичкам</CardTitle>
@@ -454,9 +454,9 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+            <Card className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center mb-4">
                   <Icon name="Briefcase" className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-white text-xl">Фрилансерам</CardTitle>
@@ -469,9 +469,9 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+            <Card className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center mb-4">
                   <Icon name="Building" className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-white text-xl">Владельцам бизнеса</CardTitle>
@@ -481,9 +481,9 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+            <Card className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center mb-4">
                   <Icon name="Palette" className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-white text-xl">Дизайнерам</CardTitle>
@@ -496,9 +496,9 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+            <Card className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center mb-4">
                   <Icon name="Users" className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-white text-xl">SMM-щикам</CardTitle>
@@ -511,9 +511,9 @@ export default function Index() {
               </CardContent>
             </Card>
 
-            <Card className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+            <Card className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center mb-4">
                   <Icon name="Rocket" className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-white text-xl">Амбициозным</CardTitle>
@@ -533,26 +533,26 @@ export default function Index() {
       <section className="py-20 px-4 bg-black">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="space-y-4 mb-6">
-            <Badge className="bg-purple-600 text-white border-0">
+            <Badge className="bg-black border border-white text-white border-0">
               Доступ к курсу — бессрочно
             </Badge>
-            <Badge className="bg-purple-600 text-white border-0">
+            <Badge className="bg-black border border-white text-white border-0">
               Чат с другими учениками
             </Badge>
-            <Badge className="bg-purple-600 text-white border-0">
+            <Badge className="bg-black border border-white text-white border-0">
               Личное ведение эксперта на 2 месяца
             </Badge>
-            <Badge className="bg-purple-600 text-white border-0">
+            <Badge className="bg-black border border-white text-white border-0">
               Растущая база промтов и референсов
             </Badge>
-            <Badge className="bg-purple-600 text-white border-0">
+            <Badge className="bg-black border border-white text-white border-0">
               11 модулей
             </Badge>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-light text-white mb-6 leading-tight">
             Зарабатывайте с ИИ<br/>
-            <span className="font-normal text-purple-400">в 5 раз больше</span>
+            <span className="font-normal text-white">в 5 раз больше</span>
           </h1>
           
           <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
@@ -563,7 +563,7 @@ export default function Index() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button 
               size="lg" 
-              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4"
+              className="bg-black border-2 border-white hover:bg-gray-900 text-white px-8 py-4"
               onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Начать обучение за 5,490₽
@@ -571,7 +571,7 @@ export default function Index() {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-purple-600 text-purple-400 hover:bg-purple-900 px-8 py-4"
+              className="border-white text-white hover:bg-gray-900 px-8 py-4"
               onClick={() => document.getElementById('modules')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Посмотреть программу
@@ -581,7 +581,7 @@ export default function Index() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <Icon name={stat.icon as any} className="w-6 h-6 text-purple-400 mx-auto mb-2" />
+                <Icon name={stat.icon as any} className="w-6 h-6 text-white mx-auto mb-2" />
                 <div className="text-2xl font-light text-white">{stat.value}</div>
                 <div className="text-sm text-gray-400">{stat.label}</div>
               </div>
@@ -603,12 +603,12 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-black border border-white rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name={benefit.icon as any} className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-medium text-white mb-3">{benefit.title}</h3>
                 <p className="text-gray-300 mb-2">{benefit.description}</p>
-                <p className="text-sm text-purple-400">{benefit.detail}</p>
+                <p className="text-sm text-white">{benefit.detail}</p>
               </div>
             ))}
           </div>
@@ -627,13 +627,13 @@ export default function Index() {
           
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
             {modules.map((module, index) => (
-              <Card key={index} className="border border-purple-600/30 bg-gray-900 hover:bg-gray-800 transition-all duration-300">
+              <Card key={index} className="border border-white/30 bg-gray-900 hover:bg-gray-800 transition-all duration-300">
                 <CardHeader className="pb-4">
-                  <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-black border border-white rounded-lg flex items-center justify-center mb-4">
                     <Icon name={module.icon as any} className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle className="text-lg font-medium text-white">{module.title}</CardTitle>
-                  <CardDescription className="text-sm text-purple-300">
+                  <CardDescription className="text-sm text-white">
                     {module.lessons.length} уроков
                   </CardDescription>
                 </CardHeader>
@@ -641,7 +641,7 @@ export default function Index() {
                   <ul className="space-y-2">
                     {module.lessons.map((lesson, lessonIndex) => (
                       <li key={lessonIndex} className="flex items-start gap-3 text-gray-300 text-sm">
-                        <Icon name="Check" className="w-4 h-4 text-purple-400 mt-0.5 flex-shrink-0" />
+                        <Icon name="Check" className="w-4 h-4 text-white mt-0.5 flex-shrink-0" />
                         {lesson}
                       </li>
                     ))}
@@ -665,13 +665,13 @@ export default function Index() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {bonuses.map((bonus, index) => (
-              <Card key={index} className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+              <Card key={index} className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
                 <CardHeader>
                   <CardTitle className="text-white text-base">{bonus.title}</CardTitle>
                   <CardDescription className="text-gray-300">{bonus.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Badge className="bg-purple-600 text-white border-0">
+                  <Badge className="bg-black border border-white text-white border-0">
                     Стоимость: {bonus.value}
                   </Badge>
                 </CardContent>
@@ -680,14 +680,14 @@ export default function Index() {
           </div>
           
           <div className="text-center mt-12">
-            <div className="inline-block bg-gradient-to-r from-purple-600 to-purple-800 rounded-lg p-6">
+            <div className="inline-block bg-black border border-white rounded-lg p-6">
               <div className="text-2xl font-light text-white mb-2">
                 Общая стоимость бонусов
               </div>
               <div className="text-4xl font-bold text-white">
                 143,940₽
               </div>
-              <div className="text-purple-200 mt-2">
+              <div className="text-white mt-2">
                 Получите бесплатно с эксклюзивным тарифом
               </div>
             </div>
@@ -704,21 +704,21 @@ export default function Index() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="border border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black">
+              <Card key={index} className="border border-white/30 bg-gradient-to-br from-gray-900 to-black">
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-lg">
+                    <div className="w-12 h-12 bg-black border border-white rounded-full flex items-center justify-center text-lg">
                       {testimonial.avatar}
                     </div>
                     <div>
                       <CardTitle className="text-white text-base font-medium">{testimonial.name}</CardTitle>
-                      <CardDescription className="text-purple-300 text-sm">{testimonial.role}</CardDescription>
+                      <CardDescription className="text-white text-sm">{testimonial.role}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-200 mb-4 text-sm leading-relaxed">"{testimonial.content}"</p>
-                  <Badge className="bg-purple-600 text-white border-0 text-xs">
+                  <Badge className="bg-black border border-white text-white border-0 text-xs">
                     {testimonial.result}
                   </Badge>
                 </CardContent>
@@ -740,10 +740,10 @@ export default function Index() {
           
           <div className="grid lg:grid-cols-3 gap-8">
             {pricing.map((plan, index) => (
-              <Card key={index} className={`border ${plan.popular ? 'border-purple-400 bg-gray-800' : 'border-purple-600/30 bg-gray-900'} relative`}>
+              <Card key={index} className={`border ${plan.popular ? 'border-white bg-gray-800' : 'border-white/30 bg-gray-900'} relative`}>
                 {plan.popular && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <Badge className="bg-purple-600 text-white border-0 px-3 py-1">
+                    <Badge className="bg-black border border-white text-white border-0 px-3 py-1">
                       Популярный выбор
                     </Badge>
                   </div>
@@ -756,7 +756,7 @@ export default function Index() {
                   <div className="text-3xl font-light text-white mb-2">
                     {plan.price}₽
                   </div>
-                  <Badge className="bg-purple-600 text-white border-0 text-xs">
+                  <Badge className="bg-black border border-white text-white border-0 text-xs">
                     {plan.modules}
                   </Badge>
                 </CardHeader>
@@ -764,14 +764,14 @@ export default function Index() {
                   <ul className="space-y-3 mb-8">
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3 text-gray-200">
-                        <Icon name="Check" className="w-4 h-4 text-purple-400 mt-0.5 flex-shrink-0" />
+                        <Icon name="Check" className="w-4 h-4 text-white mt-0.5 flex-shrink-0" />
                         <span className="text-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className={`w-full ${plan.popular ? 'bg-purple-600 hover:bg-purple-700' : 'bg-purple-600 hover:bg-purple-700'} text-white`}>
+                  <Button className={`w-full ${plan.popular ? 'bg-black border-2 border-white hover:bg-gray-900' : 'bg-black border-2 border-white hover:bg-gray-900'} text-white`}>
                     Выбрать тариф
                   </Button>
                 </CardFooter>
@@ -796,8 +796,8 @@ export default function Index() {
           
           <Accordion type="single" collapsible className="space-y-4">
             {faq.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border border-purple-600/30 rounded-lg bg-gradient-to-r from-purple-900/20 to-black px-6">
-                <AccordionTrigger className="text-white hover:text-purple-300 py-6 text-left font-medium">
+              <AccordionItem key={index} value={`item-${index}`} className="border border-white/30 rounded-lg bg-gradient-to-r from-gray-900 to-black px-6">
+                <AccordionTrigger className="text-white hover:text-white py-6 text-left font-medium">
                   {item.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-300 pb-6 leading-relaxed">
@@ -819,30 +819,30 @@ export default function Index() {
             Присоединяйтесь к 2,847 ученикам, которые изменили свою жизнь с помощью ИИ
           </p>
           
-          <div className="bg-gradient-to-r from-purple-900/40 to-purple-800/40 border border-purple-600/30 rounded-lg p-6 mb-10 inline-block">
+          <div className="bg-black border border-white rounded-lg p-6 mb-10 inline-block">
             <div className="text-lg font-medium text-white mb-1">
               Цена вырастет через: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
             </div>
-            <div className="text-purple-300 text-sm">
+            <div className="text-white text-sm">
               Осталось мест: 12 из 100
             </div>
           </div>
 
-          <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-12 py-4 text-lg mb-8">
+          <Button size="lg" className="bg-black border-2 border-white hover:bg-gray-900 text-white px-12 py-4 text-lg mb-8">
             Получить доступ за 4,990₽
           </Button>
           
           <div className="flex justify-center gap-8 text-sm text-gray-400">
             <div className="flex items-center gap-2">
-              <Icon name="Shield" className="w-4 h-4 text-purple-400" />
+              <Icon name="Shield" className="w-4 h-4 text-white" />
               <span>Гарантия 30 дней</span>
             </div>
             <div className="flex items-center gap-2">
-              <Icon name="Zap" className="w-4 h-4 text-purple-400" />
+              <Icon name="Zap" className="w-4 h-4 text-white" />
               <span>Мгновенный доступ</span>
             </div>
             <div className="flex items-center gap-2">
-              <Icon name="CreditCard" className="w-4 h-4 text-purple-400" />
+              <Icon name="CreditCard" className="w-4 h-4 text-white" />
               <span>Рассрочка</span>
             </div>
           </div>
@@ -850,7 +850,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-purple-600/30 py-12 px-4">
+      <footer className="border-t border-white/30 py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-6 md:mb-0">
@@ -858,17 +858,17 @@ export default function Index() {
               <p className="text-gray-400">Зарабатывайте больше, работайте меньше</p>
             </div>
             <div className="flex gap-6">
-              <Button variant="ghost" className="text-gray-400 hover:text-purple-400">
+              <Button variant="ghost" className="text-gray-400 hover:text-white">
                 <Icon name="Mail" className="w-4 h-4 mr-2" />
                 Поддержка
               </Button>
-              <Button variant="ghost" className="text-gray-400 hover:text-purple-400">
+              <Button variant="ghost" className="text-gray-400 hover:text-white">
                 <Icon name="MessageCircle" className="w-4 h-4 mr-2" />
                 Telegram
               </Button>
             </div>
           </div>
-          <div className="border-t border-purple-600/30 mt-8 pt-8 text-center">
+          <div className="border-t border-white/30 mt-8 pt-8 text-center">
             <p className="text-gray-500 text-sm">
               © 2024 Курс "ИИ для заработка" от Вероники. Все права защищены.
             </p>
