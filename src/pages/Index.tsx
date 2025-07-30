@@ -427,7 +427,6 @@ export default function Index() {
                   <div className="text-sm text-gray-400">Результат</div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </section>
