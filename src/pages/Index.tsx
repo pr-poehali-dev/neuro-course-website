@@ -740,7 +740,7 @@ export default function Index() {
           
           <div className="grid lg:grid-cols-3 gap-8">
             {pricing.map((plan, index) => (
-              <Card key={index} className={`border ${plan.popular ? 'border-purple-400 bg-gradient-to-br from-purple-900/40 to-purple-800/20' : 'border-purple-600/30 bg-gradient-to-br from-purple-900/20 to-black'} relative`}>
+              <Card key={index} className={`border ${plan.popular ? 'border-purple-400 bg-gray-800' : 'border-purple-600/30 bg-gray-900'} relative`}>
                 {plan.popular && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
                     <Badge className="bg-purple-600 text-white border-0 px-3 py-1">
