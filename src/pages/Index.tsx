@@ -755,15 +755,7 @@ VSTORIES AI</h1>
           <p className="text-lg text-gray-300 mb-10">
             Присоединяйтесь к 2,847 ученикам, которые изменили свою жизнь с помощью ИИ
           </p>
-          
-          <div className="bg-black border border-white rounded-lg p-6 mb-10 inline-block">
-            <div className="text-lg font-medium text-white mb-1">
-              Цена вырастет через: {timeLeft.hours}ч {timeLeft.minutes}м {timeLeft.seconds}с
-            </div>
-            <div className="text-white text-sm">
-              Осталось мест: 12 из 100
-            </div>
-          </div>
+
 
           <Button size="lg" className="bg-black border-2 border-white hover:bg-gray-900 text-white px-12 py-4 text-lg mb-8">Получить доступ за 5 490₽</Button>
           
