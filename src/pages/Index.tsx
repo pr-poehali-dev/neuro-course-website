@@ -880,9 +880,62 @@ export default function Index() {
               </Button>
             </div>
           </div>
+          {/* Privacy & Data Protection FAQ */}
+          <div className="bg-gray-900 rounded-lg p-8 mb-12">
+            <h3 className="text-2xl font-light text-white mb-6 text-center">
+              Защита данных и конфиденциальность
+            </h3>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="privacy" className="border-white/20">
+                <AccordionTrigger className="text-white hover:text-gray-300">
+                  Как защищены мои персональные данные?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-300">
+                  Мы соблюдаем требования 152-ФЗ "О персональных данных". Все данные шифруются и хранятся на защищенных серверах. Мы не передаем вашу информацию третьим лицам без вашего согласия.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="payment" className="border-white/20">
+                <AccordionTrigger className="text-white hover:text-gray-300">
+                  Безопасна ли оплата?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-300">
+                  Да, мы работаем только с проверенными платежными системами (ЮKassa, Сбербанк). Все транзакции защищены SSL-сертификатом. Ваши банковские данные не сохраняются.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="refund" className="border-white/20">
+                <AccordionTrigger className="text-white hover:text-gray-300">
+                  Можно ли вернуть деньги?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-300">
+                  Да, у вас есть 7 дней с момента покупки для возврата средств согласно закону о защите прав потребителей. Для возврата напишите в поддержку с указанием причины.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="support" className="border-white/20">
+                <AccordionTrigger className="text-white hover:text-gray-300">
+                  Как связаться с поддержкой?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-300">
+                  Техподдержка доступна 24/7 через Telegram-бот @vstories_support или email: support@vstories.ru. Средний ответ - до 2 часов.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="certificates" className="border-white/20">
+                <AccordionTrigger className="text-white hover:text-gray-300">
+                  Выдается ли сертификат?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-300">
+                  Да, после прохождения курса и выполнения практических заданий вы получите именной сертификат о прохождении обучения по программе "ИИ для заработка".
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+
           <div className="border-t border-white/30 mt-8 pt-8 text-center">
             <p className="text-gray-500 text-sm">
-              © 2024 Курс "ИИ для заработка" от Вероники. Все права защищены.
+              © 2024 Курс "ИИ для заработка" от Ольги. Все права защищены.
             </p>
           </div>
         </div>
