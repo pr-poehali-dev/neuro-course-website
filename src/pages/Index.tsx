@@ -782,9 +782,7 @@ export default function Index() {
           </div>
 
           <div className="text-center mt-12">
-            <p className="text-gray-400">
-              Рассрочка до 12 месяцев • Гарантия возврата 30 дней • Поддержка 24/7
-            </p>
+            <p className="text-gray-400">Рассрочка до 12 месяцев • Сертификат о прохождении • Поддержка куратора</p>
           </div>
         </div>
       </section>
