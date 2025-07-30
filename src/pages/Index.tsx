@@ -840,14 +840,12 @@ export default function Index() {
             </div>
           </div>
 
-          <Button size="lg" className="bg-black border-2 border-white hover:bg-gray-900 text-white px-12 py-4 text-lg mb-8">
-            Получить доступ за 4,990₽
-          </Button>
+          <Button size="lg" className="bg-black border-2 border-white hover:bg-gray-900 text-white px-12 py-4 text-lg mb-8">Получить доступ за 5 490₽</Button>
           
           <div className="flex justify-center gap-8 text-sm text-gray-400">
             <div className="flex items-center gap-2">
               <Icon name="Shield" className="w-4 h-4 text-white" />
-              <span>Гарантия 30 дней</span>
+              <span>Сертификат о прохождении</span>
             </div>
             <div className="flex items-center gap-2">
               <Icon name="Zap" className="w-4 h-4 text-white" />
