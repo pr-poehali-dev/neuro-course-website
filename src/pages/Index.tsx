@@ -392,7 +392,7 @@ export default function Index() {
               </Badge>
               
               <h1 className="text-3xl md:text-4xl font-light text-white mb-6">
-                Привет! Меня зовут <span className="text-purple-400 font-medium">Вероника</span>
+                Привет! Меня зовут <span className="text-purple-400 font-medium">Ольга</span>
               </h1>
               
               <div className="space-y-4 text-gray-300 leading-relaxed">
