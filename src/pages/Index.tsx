@@ -568,10 +568,8 @@ export default function Index() {
             <span className="font-normal text-white">в 5 раз больше</span>
           </h1>
           
-          <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
-            Освойте все ИИ-инструменты, создайте клона себя, запустите Telegram-боты<br/>
-            и TikTok-каналы. Увеличьте доход на 200% за месяц или вернём деньги.
-          </p>
+          <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">Освойте все ИИ-инструменты, создайте клона себя, запустите Telegram-боты
+и TikTok-каналы. Увеличьте доход до 200%-500%.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button 
