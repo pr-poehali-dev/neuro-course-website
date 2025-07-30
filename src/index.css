@@ -97,9 +97,15 @@
     @apply border-border;
   }
 
+  *,
+  body,
+  html {
+    font-family: "Rajdhani", sans-serif !important;
+  }
+
   body {
     @apply bg-background text-foreground;
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Rajdhani", sans-serif !important;
     font-weight: 400;
   }
 }
