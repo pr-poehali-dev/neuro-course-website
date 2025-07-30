@@ -396,10 +396,7 @@ export default function Index() {
               </h1>
               
               <div className="space-y-4 text-gray-300 leading-relaxed">
-                <p>
-                  За 4 года работы с ИИ я помогла <strong className="text-white">2,847 ученикам</strong> увеличить доходы 
-                  в среднем на 127% и запустить прибыльные ИИ-проекты.
-                </p>
+                <p>Я ушла с найма в IT и стала профессионалом в сфере использования ИИ для малого и среднего бизнеса. За 2 года работы с ИИ я помогла более 150 ученикам увеличить доходы в среднем на 127% и запустить прибыльные ИИ-проекты.</p>
                 <p>
                   Мой опыт: создание ИИ-сервисов с оборотом более 50 млн рублей, 
                   запуск 15+ успешных онлайн-школ, разработка автоматизированных 
@@ -413,16 +410,16 @@ export default function Index() {
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
                 <div className="text-center">
-                  <div className="text-2xl font-light text-purple-400">2,847</div>
-                  <div className="text-sm text-gray-400">Учеников</div>
+                  <div className="text-2xl font-light text-purple-400">153</div>
+                  <div className="text-sm text-gray-400">Ученика</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-light text-purple-400">4 года</div>
+                  <div className="text-2xl font-light text-purple-400">2 года</div>
                   <div className="text-sm text-gray-400">Опыта</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-light text-purple-400">50+ млн</div>
-                  <div className="text-sm text-gray-400">Оборот</div>
+                  <div className="text-sm text-gray-400">Оборот моих учеников</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-light text-purple-400">98%</div>
