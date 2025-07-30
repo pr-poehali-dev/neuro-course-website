@@ -583,8 +583,7 @@ export default function Index() {
             </Button>
             <Button 
               size="lg" 
-              variant="outline" 
-              className="border-white text-white hover:bg-gray-900 px-8 py-4"
+              className="bg-black border-2 border-white hover:bg-gray-900 text-white px-8 py-4"
               onClick={() => document.getElementById('modules')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Посмотреть программу
