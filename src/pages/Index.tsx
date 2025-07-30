@@ -400,7 +400,7 @@ export default function Index() {
               </h1>
               
               <div className="space-y-4 text-gray-300 leading-relaxed">
-                <p>Я ушла с найма в IT и стала профессионалом в сфере использования ИИ для малого и среднего бизнеса. За 2 года работы с ИИ я помогла более 150 ученикам увеличить доходы в среднем на 127% и запустить прибыльные ИИ-проекты.</p>
+                <p>Мой опыт: создание ИИ-сервисов с оборотом более 50 млн рублей, запуск 15+ успешных онлайн-школ, разработка автоматизированных систем продаж через Telegram-ботов.</p>
                 <p>
                   Мой опыт: создание ИИ-сервисов с оборотом более 50 млн рублей, 
                   запуск 15+ успешных онлайн-школ, разработка автоматизированных 
@@ -454,10 +454,7 @@ export default function Index() {
                 <CardTitle className="text-white text-xl">Новичкам</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Даже если вы никогда не работали с ИИ, курс построен от простого к сложному. 
-                  70% наших учеников - полные новички.
-                </p>
+                <p className="text-gray-300 text-sm leading-relaxed">Даже если вы никогда не работали с Искусственным интеллектом, курс построен от простого к сложному. 70% наших учеников - полные новички.</p>
               </CardContent>
             </Card>
 
@@ -484,10 +481,7 @@ export default function Index() {
                 <CardTitle className="text-white text-xl">Владельцам бизнеса</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Сократите расходы на персонал, автоматизируйте маркетинг 
-                  и увеличьте прибыль на 200-500%.
-                </p>
+                <p className="text-gray-300 text-sm leading-relaxed">Сократите расходы на персонал, автоматизируйте маркетинг и увеличьте прибыль до 200-500%.</p>
               </CardContent>
             </Card>
 
