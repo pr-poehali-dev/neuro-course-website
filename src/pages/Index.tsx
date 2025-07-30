@@ -385,7 +385,7 @@ export default function Index() {
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="text-center">
-              <Badge className="mb-6 bg-black border border-white text-white border-0">ИИ-эксперт • 2 года в сфере Искусственного интеллекта</Badge>
+
               
               <h1 className="text-3xl md:text-4xl font-light text-white mb-6">OLGA 
 VSTORIES AI</h1>
