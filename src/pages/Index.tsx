@@ -570,7 +570,11 @@ export default function Index() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4">
+            <Button 
+              size="lg" 
+              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4"
+              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Начать обучение за 4,990₽
             </Button>
             <Button size="lg" variant="outline" className="border-purple-600 text-purple-400 hover:bg-purple-900 px-8 py-4">
@@ -729,7 +733,7 @@ export default function Index() {
       </section>
 
       {/* Pricing */}
-      <section className="py-20 px-4 bg-black">
+      <section id="pricing" className="py-20 px-4 bg-black">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-light text-center text-white mb-4">
             Выберите тариф
