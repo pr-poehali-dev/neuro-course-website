@@ -34,8 +34,10 @@ export default function Index() {
         "Работа с телефоном", 
         "Создание постов за минуты",
         "Создание качественных промтов",
+        "Продвинутое создание промтов",
+        "Создание логотипов и обложек",
+        "Создание фото с одеждой и предметами",
         "Создание личных фото с помощью ChatGPT",
-        "Создание изображений",
         "Генерация в различных стилях"
       ],
       color: "from-green-500 to-emerald-600"
@@ -50,6 +52,7 @@ export default function Index() {
         "Создание реалистичных изображений",
         "Создание видео из промта и фото",
         "Создание реалистичных видео с человеком",
+        "Создание контента с одеждой",
         "Создание фото по стилю",
         "Как исправить недочёты"
       ],
@@ -61,11 +64,35 @@ export default function Index() {
       lessons: [
         "Введение в работу с ИИ-ботом",
         "Оплата подписки",
-        "Создание аватара",
-        "Создание фото", 
-        "Создание видео"
+        "Создание аватара и фото",
+        "Создание видео", 
+        "Генерация и клонирование голоса",
+        "VEO 3 - новейшая технология",
+        "Создание видео с товарами"
       ],
       color: "from-blue-500 to-cyan-600"
+    },
+    {
+      title: "Gamma",
+      icon: "FileText",
+      lessons: [
+        "Создание презентаций с ИИ",
+        "Создание документов",
+        "Создание каруселей",
+        "Генерация изображений в презентациях"
+      ],
+      color: "from-orange-500 to-red-600"
+    },
+    {
+      title: "Flyvi",
+      icon: "Sparkles",
+      lessons: [
+        "Создание дизайнов",
+        "Редактирование изображений",
+        "Обзор готовых дизайнов",
+        "Экспорт и использование"
+      ],
+      color: "from-pink-500 to-rose-600"
     }
   ];
 
@@ -171,14 +198,19 @@ export default function Index() {
       items: ["Редактирование фото", "Редактирование видео"]
     },
     {
-      title: "База материалов",
-      icon: "Database", 
-      items: ["Референсы", "Готовые промты"]
+      title: "ИИ-аватар",
+      icon: "User", 
+      items: ["Создание ИИ клона себя", "Настройка голоса"]
     },
     {
-      title: "Монетизация",
+      title: "База материалов",
+      icon: "Database", 
+      items: ["Референсы для себя и экспертов", "Растущая база промтов"]
+    },
+    {
+      title: "Монетизация Pro",
       icon: "DollarSign",
-      items: ["Как правильно создавать визуал своего профиля", "Стратегии заработка"]
+      items: ["6 способов заработка на нейроконтенте", "Где продавать услуги", "Создание портфолио", "Воронки продаж с Telegram-ботами", "Монетизация TikTok"]
     }
   ];
 
@@ -188,44 +220,49 @@ export default function Index() {
       originalPrice: "9,990",
       price: "4,990", 
       features: [
-        "Полный доступ к курсу",
+        "Доступ к базовым модулям (6 мес)",
+        "Чат с поддержкой",
         "База промтов и референсов",
-        "Техподдержка в чате",
-        "Все бонусные модули",
-        "Доступ навсегда"
+        "3 основных ИИ-инструмента",
+        "Основы монетизации"
       ],
       popular: false,
-      savings: "Сэкономите: 5,000₽"
+      savings: "Сэкономите: 5,000₽",
+      modules: "3 модуля"
     },
     {
-      name: "Профи",
-      originalPrice: "19,990",
-      price: "9,990",
+      name: "AI в бизнесе",
+      originalPrice: "24,990",
+      price: "12,990",
       features: [
-        "Всё из тарифа \"Старт\"",
-        "3 персональные консультации",
-        "Разбор ваших кейсов", 
-        "VIP-чат с экспертами",
-        "Персональный план развития",
-        "Приоритетная поддержка"
+        "Доступ ко всем 11 модулям (6 мес)",
+        "Чат с учениками и кураторами", 
+        "Растущая база промтов и референсов",
+        "Все ИИ-инструменты (ChatGPT, Krea, Gamma, Flyvi)",
+        "Полная программа монетизации",
+        "Создание ИИ-клона себя"
       ],
       popular: true,
-      savings: "Сэкономите: 10,000₽"
+      savings: "Сэкономите: 12,000₽",
+      modules: "11 модулей"
     },
     {
-      name: "Эксперт",
-      originalPrice: "39,990", 
-      price: "19,990",
+      name: "AI эксклюзив",
+      originalPrice: "49,990", 
+      price: "24,990",
       features: [
-        "Всё из тарифа \"Профи\"",
-        "Личный куратор на месяц", 
-        "Готовые шаблоны для заработка",
-        "Индивидуальная стратегия монетизации",
-        "Гарантия результата или возврат денег",
-        "Пожизненные обновления"
+        "Бессрочный доступ ко всем 11 модулям",
+        "Личное ведение эксперта на 2 месяца",
+        "Приоритетный чат с учениками", 
+        "Растущая база промтов (пожизненно)",
+        "Воронки продаж с Telegram-ботами",
+        "Монетизация TikTok с нуля",
+        "Индивидуальная стратегия заработка",
+        "ИИ-клон + клонирование голоса"
       ],
       popular: false,
-      savings: "Сэкономите: 20,000₽"
+      savings: "Сэкономите: 25,000₽",
+      modules: "11 модулей + менторство"
     }
   ];
 
@@ -283,7 +320,7 @@ export default function Index() {
           </h1>
           
           <p className="text-xl text-slate-300 mb-8 leading-relaxed max-w-4xl mx-auto">
-            <strong className="text-yellow-400">Увеличьте доход на 200% уже через месяц</strong> с помощью ChatGPT, Krea и других ИИ-инструментов.<br/>
+            <strong className="text-yellow-400">Увеличьте доход на 200% уже через месяц</strong> с помощью ChatGPT, Krea, Gamma, Flyvi и других ИИ-инструментов.<br/>
             Или вернём <strong className="text-white">каждую копейку</strong> + 10,000₽ сверху за потраченное время.
           </p>
 
@@ -456,29 +493,34 @@ export default function Index() {
             Что вы освоите за 30 дней
           </h2>
           <p className="text-xl text-center text-slate-300 mb-12">
-            Практические навыки, которые принесут деньги уже на первой неделе
+            11 модулей практических навыков, которые принесут деньги уже на первой неделе
           </p>
           
-          <div className="grid lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid lg:grid-cols-5 gap-6 mb-12">
             {modules.map((module, index) => (
               <Card key={index} className="bg-gradient-to-br from-slate-900 to-slate-800 border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105">
                 <CardHeader>
-                  <div className={`w-full h-24 rounded-lg bg-gradient-to-r ${module.color} flex items-center justify-center mb-4`}>
-                    <Icon name={module.icon as any} className="w-12 h-12 text-white" />
+                  <div className={`w-full h-20 rounded-lg bg-gradient-to-r ${module.color} flex items-center justify-center mb-4`}>
+                    <Icon name={module.icon as any} className="w-8 h-8 text-white" />
                   </div>
-                  <CardTitle className="text-2xl text-white">{module.title}</CardTitle>
-                  <CardDescription className="text-slate-400">
-                    {module.lessons.length} практических урока
+                  <CardTitle className="text-lg text-white">{module.title}</CardTitle>
+                  <CardDescription className="text-slate-400 text-sm">
+                    {module.lessons.length} практических уроков
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-2">
-                    {module.lessons.map((lesson, lessonIndex) => (
-                      <li key={lessonIndex} className="flex items-start gap-2 text-slate-300 text-sm">
-                        <Icon name="CheckCircle" className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" />
+                  <ul className="space-y-1">
+                    {module.lessons.slice(0, 4).map((lesson, lessonIndex) => (
+                      <li key={lessonIndex} className="flex items-start gap-2 text-slate-300 text-xs">
+                        <Icon name="CheckCircle" className="w-3 h-3 text-green-400 mt-0.5 flex-shrink-0" />
                         {lesson}
                       </li>
                     ))}
+                    {module.lessons.length > 4 && (
+                      <li className="text-slate-400 text-xs">
+                        ...и ещё {module.lessons.length - 4} уроков
+                      </li>
+                    )}
                   </ul>
                 </CardContent>
               </Card>
@@ -490,7 +532,7 @@ export default function Index() {
             <h3 className="text-2xl font-bold text-yellow-400 text-center mb-6">
               🎁 Бонусные модули в подарок
             </h3>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-4 gap-6">
               {bonuses.map((bonus, index) => (
                 <div key={index} className="text-center">
                   <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full flex items-center justify-center">
@@ -530,15 +572,18 @@ export default function Index() {
                   </div>
                 )}
                 <CardHeader className="text-center">
-                  <CardTitle className="text-2xl text-white">{plan.name}</CardTitle>
+                  <CardTitle className="text-xl text-white">{plan.name}</CardTitle>
                   <div className="mb-2">
-                    <span className="text-lg text-slate-400 line-through">{plan.originalPrice}₽</span>
+                    <span className="text-sm text-slate-400 line-through">{plan.originalPrice}₽</span>
                   </div>
-                  <div className="text-4xl font-bold text-white mb-2">
+                  <div className="text-3xl font-bold text-white mb-2">
                     {plan.price}₽
                   </div>
-                  <Badge className="bg-green-500 text-white border-0">
+                  <Badge className="bg-green-500 text-white border-0 text-xs mb-2">
                     {plan.savings}
+                  </Badge>
+                  <Badge className="bg-blue-500 text-white border-0 text-xs">
+                    {plan.modules}
                   </Badge>
                 </CardHeader>
                 <CardContent>
@@ -546,13 +591,13 @@ export default function Index() {
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-2 text-slate-300">
                         <Icon name="Check" className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" />
-                        <span className="text-sm">{feature}</span>
+                        <span className="text-xs">{feature}</span>
                       </li>
                     ))}
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className={`w-full font-bold text-lg py-6 ${plan.popular ? 'bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-black' : 'bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white'}`}>
+                  <Button className={`w-full font-bold text-sm py-4 ${plan.popular ? 'bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-black' : 'bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white'}`}>
                     {plan.popular ? '🚀 ХОЧУ ЛУЧШИЙ РЕЗУЛЬТАТ' : 'Выбрать тариф'}
                   </Button>
                 </CardFooter>
