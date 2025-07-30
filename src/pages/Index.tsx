@@ -589,16 +589,6 @@ export default function Index() {
               Посмотреть программу
             </Button>
           </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <Icon name={stat.icon as any} className="w-6 h-6 text-white mx-auto mb-2" />
-                <div className="text-2xl font-light text-white">{stat.value}</div>
-                <div className="text-sm text-gray-400">{stat.label}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
