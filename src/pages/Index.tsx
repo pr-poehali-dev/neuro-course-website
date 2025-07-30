@@ -256,9 +256,9 @@ export default function Index() {
 
   const pricing = [
     {
-      name: "Старт",
+      name: "AI с нуля",
       originalPrice: "9,990",
-      price: "4,990", 
+      price: "5,490", 
       features: [
         "Доступ к базовым модулям (6 мес)",
         "Чат с поддержкой",
@@ -272,7 +272,7 @@ export default function Index() {
     {
       name: "AI в бизнесе",
       originalPrice: "24,990",
-      price: "12,990",
+      price: "15,490",
       features: [
         "Доступ ко всем 11 модулям (6 мес)",
         "Чат с учениками и кураторами", 
@@ -287,8 +287,8 @@ export default function Index() {
     },
     {
       name: "AI эксклюзив",
-      originalPrice: "49,990", 
-      price: "24,990",
+      originalPrice: "99,990", 
+      price: "49,990",
       features: [
         "🔥 Бессрочный доступ ко всем 11 модулям",
         "👨‍🏫 Личное ведение эксперта на 2 месяца",
@@ -575,7 +575,7 @@ export default function Index() {
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4"
               onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Начать обучение за 4,990₽
+              Начать обучение за 5,490₽
             </Button>
             <Button 
               size="lg" 
